@@ -1,0 +1,1 @@
+ALTER TABLE Grouping ADD remark TEXT;
