@@ -1,0 +1,10 @@
+PODS:
+  - AppLord (1.1.2)
+
+DEPENDENCIES:
+  - AppLord (~> 1.1.2)
+
+SPEC CHECKSUMS:
+  AppLord: 60404750857adcf436a9ee4ec5c934fd03336cb5
+
+COCOAPODS: 0.39.0
