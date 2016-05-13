@@ -15,6 +15,7 @@
 		1F1EF5611CE5D17F003188A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1EF55F1CE5D17F003188A6 /* LaunchScreen.storyboard */; };
 		1F1EF5711CE5D247003188A6 /* CacheCleanerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EF56E1CE5D247003188A6 /* CacheCleanerPlugin.m */; };
 		1F1EF5721CE5D247003188A6 /* RetainCycleLoggerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EF5701CE5D247003188A6 /* RetainCycleLoggerPlugin.m */; };
+		1F1EF57B1CE5D8B0003188A6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1EF57A1CE5D8B0003188A6 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		868D678E91A22E6042249331 /* libPods-FBMemoryProfilerTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A47A1FE0DD2A07F023163C14 /* libPods-FBMemoryProfilerTestDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 		1F1EF56E1CE5D247003188A6 /* CacheCleanerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheCleanerPlugin.m; sourceTree = "<group>"; };
 		1F1EF56F1CE5D247003188A6 /* RetainCycleLoggerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetainCycleLoggerPlugin.h; sourceTree = "<group>"; };
 		1F1EF5701CE5D247003188A6 /* RetainCycleLoggerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetainCycleLoggerPlugin.m; sourceTree = "<group>"; };
+		1F1EF57A1CE5D8B0003188A6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1F1EF57C1CE5D8DF003188A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		289A11AD4E9E2FE6B0D85C13 /* Pods-FBMemoryProfilerTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBMemoryProfilerTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBMemoryProfilerTestDemo/Pods-FBMemoryProfilerTestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A47A1FE0DD2A07F023163C14 /* libPods-FBMemoryProfilerTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FBMemoryProfilerTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -43,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1EF57B1CE5D8B0003188A6 /* CoreFoundation.framework in Frameworks */,
 				868D678E91A22E6042249331 /* libPods-FBMemoryProfilerTestDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,6 +120,8 @@
 		ADAFABE2781777A234254E9D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F1EF57C1CE5D8DF003188A6 /* Foundation.framework */,
+				1F1EF57A1CE5D8B0003188A6 /* CoreFoundation.framework */,
 				A47A1FE0DD2A07F023163C14 /* libPods-FBMemoryProfilerTestDemo.a */,
 			);
 			name = Frameworks;
@@ -309,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -348,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
