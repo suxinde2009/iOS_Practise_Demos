@@ -1,0 +1,1 @@
+../../../XDCommonLib/XDCommonLib/Categories/Foundation/NSObject/NSObject+Abstract.h

@@ -1,0 +1,1 @@
+../../../XDCommonLib/XDCommonLib/XDSingleton.h

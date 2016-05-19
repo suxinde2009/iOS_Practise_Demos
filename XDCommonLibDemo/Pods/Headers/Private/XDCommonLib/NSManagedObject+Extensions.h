@@ -1,0 +1,1 @@
+../../../XDCommonLib/XDCommonLib/Categories/CoreData/NSManagedObject/NSManagedObject+Extensions.h

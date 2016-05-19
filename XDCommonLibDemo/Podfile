@@ -1,0 +1,9 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'XDCommonLibDemo' do
+pod 'XDCommonLib', :git => 'https://github.com/suxinde2009/XDCommonLib.git', :tag => '0.0.1.4'
+end
+

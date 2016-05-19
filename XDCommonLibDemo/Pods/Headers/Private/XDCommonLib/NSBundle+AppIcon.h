@@ -1,0 +1,1 @@
+../../../XDCommonLib/XDCommonLib/Categories/Foundation/NSBundle/NSBundle+AppIcon.h

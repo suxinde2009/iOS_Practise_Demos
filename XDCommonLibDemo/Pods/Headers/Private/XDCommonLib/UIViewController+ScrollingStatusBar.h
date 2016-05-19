@@ -1,0 +1,1 @@
+../../../XDCommonLib/XDCommonLib/Categories/UIKit/UIViewController/UIViewController+ScrollingStatusBar.h

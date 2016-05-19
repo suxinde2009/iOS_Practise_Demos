@@ -1,0 +1,1 @@
+../../../XDCommonLib/XDCommonLib/Categories/UIKit/UIImage/UIColor+iOS7.h
