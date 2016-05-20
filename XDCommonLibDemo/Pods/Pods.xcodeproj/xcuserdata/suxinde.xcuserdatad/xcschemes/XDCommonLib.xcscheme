@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1DE9876A671EA5CCDC86C039'
+               BlueprintIdentifier = 'F734D3C9D598E07ABCE467B1'
                BlueprintName = 'XDCommonLib'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libXDCommonLib.a'>

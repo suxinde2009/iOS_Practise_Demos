@@ -1,20 +1,10 @@
 PODS:
-  - XDCommonLib (0.0.1.4)
+  - XDCommonLib (0.0.1.5)
 
 DEPENDENCIES:
-  - XDCommonLib (from `https://github.com/suxinde2009/XDCommonLib.git`, tag `0.0.1.4`)
-
-EXTERNAL SOURCES:
-  XDCommonLib:
-    :git: https://github.com/suxinde2009/XDCommonLib.git
-    :tag: 0.0.1.4
-
-CHECKOUT OPTIONS:
-  XDCommonLib:
-    :git: https://github.com/suxinde2009/XDCommonLib.git
-    :tag: 0.0.1.4
+  - XDCommonLib (~> 0.0.1.5)
 
 SPEC CHECKSUMS:
-  XDCommonLib: 69343fcb50fe1a915420cd2cc4c414fc85eada0d
+  XDCommonLib: 3d7c1908a1354708a9a0dd0b8472ecb3b2cb9cfa
 
 COCOAPODS: 0.39.0
