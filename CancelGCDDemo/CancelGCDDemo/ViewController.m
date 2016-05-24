@@ -6,6 +6,8 @@
 //  Copyright © 2016年 suxinde. All rights reserved.
 //
 
+// http://stackoverflow.com/questions/10066897/objective-c-cancel-a-dispatch-queue-using-ui-event
+
 #import "ViewController.h"
 
 @interface ViewController () {
