@@ -1,10 +1,10 @@
 PODS:
-  - RealReachability (1.1.1)
+  - RealReachability (1.1.5)
 
 DEPENDENCIES:
   - RealReachability (~> 1.1.1)
 
 SPEC CHECKSUMS:
-  RealReachability: 0b0f7d686a75466680d452d3fad00e1a1388b923
+  RealReachability: 42781d33adbc61ffb93a8235dcd9919bc1db92ab
 
 COCOAPODS: 0.39.0

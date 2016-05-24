@@ -75,14 +75,13 @@ NSString *const kPingResultNotification = @"kPingResultNotification";
     
     if (!self.isPinging)
     {
-        // safe protection for exceptional situation, background app or multi-thread, eg.
-        [self.pingFoundation stop];
-        
         // MUST make sure pingFoundation in mainThread
         __weak __typeof(self)weakSelf = self;
         if (![[NSThread currentThread] isMainThread]) {
             dispatch_sync(dispatch_get_main_queue(), ^{
                 __strong __typeof(weakSelf)strongSelf = weakSelf;
+                // safe protection for exceptional situation, background app or multi-thread, eg.
+                [strongSelf.pingFoundation stop];
                 strongSelf.isPinging = YES;
                 [strongSelf.pingFoundation start];
                 
@@ -91,6 +90,8 @@ NSString *const kPingResultNotification = @"kPingResultNotification";
         }
         else
         {
+            // safe protection for exceptional situation, background app or multi-thread, eg.
+            [self.pingFoundation stop];
             self.isPinging = YES;
             [self.pingFoundation start];
             
@@ -107,7 +108,8 @@ NSString *const kPingResultNotification = @"kPingResultNotification";
     self.pingFoundation.delegate = nil;
     self.pingFoundation = nil;
     
-    self.pingFoundation = [PingFoundation pingFoundationWithHostName:_host];
+    self.pingFoundation = [[PingFoundation alloc] initWithHostName:_host];
+    
     self.pingFoundation.delegate = self;
 }
 
@@ -115,6 +117,10 @@ NSString *const kPingResultNotification = @"kPingResultNotification";
 
 - (void)endWithFlag:(BOOL)isSuccess
 {
+    // TODO(optimization):
+    //somewhere around here we should introduce a double check after 3 seconds on another host,
+    // if maybe not truely failed.
+    
     if (!self.isPinging)
     {
         return;
@@ -151,17 +157,22 @@ NSString *const kPingResultNotification = @"kPingResultNotification";
     [self endWithFlag:NO];
 }
 
-- (void)PingFoundation:(PingFoundation *)pinger didFailToSendPacket:(NSData *)packet error:(NSError *)error
+- (void)pingFoundation:(PingFoundation *)pinger didFailToSendPacket:(NSData *)packet sequenceNumber:(uint16_t)sequenceNumber error:(NSError *)error
 {
     [self endWithFlag:NO];
 }
 
-- (void)pingFoundation:(PingFoundation *)pinger didReceivePingResponsePacket:(NSData *)packet
+- (void)pingFoundation:(PingFoundation *)pinger didReceivePingResponsePacket:(NSData *)packet sequenceNumber:(uint16_t)sequenceNumber
 {
     [self endWithFlag:YES];
 }
 
-- (void)pingFoundation:(PingFoundation *)pinger didSendPacket:(NSData *)packet
+- (void)pingFoundation:(PingFoundation *)pinger didSendPacket:(NSData *)packet sequenceNumber:(uint16_t)sequenceNumber
+{
+    
+}
+
+- (void)pingFoundation:(PingFoundation *)pinger didReceiveUnexpectedPacket:(NSData *)packet
 {
     
 }

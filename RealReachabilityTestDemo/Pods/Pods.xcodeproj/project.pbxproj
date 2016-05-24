@@ -1,528 +1,1553 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		02D4733032EFAC6F69B09118D85B72D4 /* FSMStateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E1A23A197C4F365EC7BACC6F50CAAD /* FSMStateUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13C25724B743B9BEDD2289729B2E82DD /* PingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFBC295AC2D2F4FEB2FFFB29B5C68AF /* PingHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1553AF9BCE9F35B60BDD1B5A6129FFDC /* RealReachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1C7ED526DE8D57A75A16176198DE7F /* RealReachability-dummy.m */; };
-		219F39FAC2F68AD740D80E1AD22E8018 /* ReachStateLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 173023F595013CBC55F53BDC0D1B0D37 /* ReachStateLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		263543553A425D7F619290311C5A9FE7 /* FSMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA3438960CC237FF7F8245C6E0FCC50 /* FSMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		293127A86C4E1EE822C4920EA7403471 /* ReachStateWWAN.h in Headers */ = {isa = PBXBuildFile; fileRef = 8647C3C76E0335A8BAD0BD13AA1A6B49 /* ReachStateWWAN.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AE0AE17A9F754D4B2201A2CBB6E322E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		2DB0867ECB69A3D22E5ADE7DDF345D6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		35B16391CD8FE5DC15540422D139F729 /* Pods-RealReachabilityTestDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A48014EE1DA8AE8724914F7EC01A /* Pods-RealReachabilityTestDemo-dummy.m */; };
-		4D3E5277AA8B0550546A6236055E4B29 /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6FD010D5DE57FB7B5B04493BE34867 /* ReachStateUnReachable.m */; };
-		55BE877440704FC53D19268D8AC7315B /* ReachStateUnReachable.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A8C2248F24B58B298F2A139AB1B66F /* ReachStateUnReachable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59AFB3E080300BBAF60A43521DF91A5F /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A0FAFB7906D5E357A2892D48A765F7 /* ReachStateLoading.m */; };
-		59E789877B30EC8B00FF5D99F5A92CD7 /* FSMEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 1203B06739A51D8FBA8F2678FBE8262B /* FSMEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65AA9D8F73CEEC0484C3136C01CD6D49 /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A75F5C9E8C1A4D485B9F5FACBDCD12 /* ReachStateWWAN.m */; };
-		693C6E5EF31955D94C5CC6D0C6CAFBED /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F53ED48DEB0594A65D0F888202673DC /* FSMStateUtil.m */; };
-		A1F7EEDCDCC1FB7D06A12E475E25124D /* RealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BC5DE370023B50FFCD56C0A1ADD8DB /* RealReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB81D982E7366238B5CACA5E56C14097 /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 68009C36321D6EAC34F3373084184364 /* RealReachability.m */; };
-		AE1CF91BDBA7C3C5ED5811A3B03BFEA2 /* ReachState.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CEF2A90BE37264D1CFA326533D67E9 /* ReachState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6CA85393706C137A661790D11559BF6 /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = A948BD8474490111CCC42B01E4A9C8C1 /* ReachState.m */; };
-		B97127481A35207572841DEED7B9BA4A /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 838655D11F609B0D412E964EA2B1CD8B /* PingFoundation.m */; };
-		C362858B3E6D49559F778E4E06114CD8 /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = D3623BCAC9ED50B8A14A06F85A7C2A1D /* ReachStateWIFI.m */; };
-		C5FEA8140FF83883FDA5D2D37DD1B99B /* PingFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35823416F58D23F022CDEE6A834F9268 /* PingFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C84A0B671C21DF009FE50181E92C458E /* ReachStateWIFI.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B9B21EFB7515F377752D51DB04D693 /* ReachStateWIFI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC3B9D3BD1C55C93D386136F86C1A838 /* ReachStateUnloaded.h in Headers */ = {isa = PBXBuildFile; fileRef = A8446E19B617BA031593055751C28CA7 /* ReachStateUnloaded.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC845A725D72CAB77C1D5236ADF132C7 /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = B69876D0386BB56C7D5512F37DE38577 /* ReachStateUnloaded.m */; };
-		D4AE7C75CC8D4C3AD9B0CDB23AE869BA /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 000EF95C1B3430391D22638ECD639A22 /* FSMEngine.m */; };
-		EA4C3BCB587184DAB14FBC12E1FA4801 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC9872ED7B0EA49DCFCCA92B8E45B2E /* PingHelper.m */; };
-		ED77F316567D50D00B71148402661D3E /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E9F0AAB5DA01AFF6996A6B0EADB786 /* LocalConnection.m */; };
-		ED98A83697FD031E7B7669671B7C8E8A /* LocalConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D0463DE69457CC077C8F5C8A548B3F7 /* LocalConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D0095257C50A1C8B7B916932AA243C8C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74E02A6084DC3540DD01A91C8698EAE3;
-			remoteInfo = RealReachability;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		000EF95C1B3430391D22638ECD639A22 /* FSMEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMEngine.m; path = RealReachability/FSM/FSMEngine.m; sourceTree = "<group>"; };
-		0A985E72C080B22BD7F379166645D47B /* RealReachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealReachability.xcconfig; sourceTree = "<group>"; };
-		1203B06739A51D8FBA8F2678FBE8262B /* FSMEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMEngine.h; path = RealReachability/FSM/FSMEngine.h; sourceTree = "<group>"; };
-		12CE3F8DD9A06EFE38DFF163E0910AFD /* Pods-RealReachabilityTestDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealReachabilityTestDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		173023F595013CBC55F53BDC0D1B0D37 /* ReachStateLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateLoading.h; path = RealReachability/FSM/ReachStateLoading.h; sourceTree = "<group>"; };
-		30ED959A681A9BF66489B81657750D58 /* Pods-RealReachabilityTestDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealReachabilityTestDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		34A8C2248F24B58B298F2A139AB1B66F /* ReachStateUnReachable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnReachable.h; path = RealReachability/FSM/ReachStateUnReachable.h; sourceTree = "<group>"; };
-		35823416F58D23F022CDEE6A834F9268 /* PingFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingFoundation.h; path = RealReachability/Ping/PingFoundation.h; sourceTree = "<group>"; };
-		39BC5DE370023B50FFCD56C0A1ADD8DB /* RealReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RealReachability.h; path = RealReachability/RealReachability.h; sourceTree = "<group>"; };
-		39BF6DCA11D591F0D7BF99D167BF0366 /* Pods-RealReachabilityTestDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealReachabilityTestDemo-frameworks.sh"; sourceTree = "<group>"; };
-		3C232C29776C0B26D2D8B4B462B4AEEE /* Pods-RealReachabilityTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealReachabilityTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		3D0463DE69457CC077C8F5C8A548B3F7 /* LocalConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocalConnection.h; path = RealReachability/Connection/LocalConnection.h; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3F53ED48DEB0594A65D0F888202673DC /* FSMStateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMStateUtil.m; path = RealReachability/FSM/FSMStateUtil.m; sourceTree = "<group>"; };
-		49EF91FFB241F85722AEBB9732593BA4 /* libPods-RealReachabilityTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealReachabilityTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5417787E3E5453F21B6634EC2A8F65F2 /* Pods-RealReachabilityTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealReachabilityTestDemo.release.xcconfig"; sourceTree = "<group>"; };
-		68009C36321D6EAC34F3373084184364 /* RealReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RealReachability.m; path = RealReachability/RealReachability.m; sourceTree = "<group>"; };
-		6954A48014EE1DA8AE8724914F7EC01A /* Pods-RealReachabilityTestDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealReachabilityTestDemo-dummy.m"; sourceTree = "<group>"; };
-		79B9B21EFB7515F377752D51DB04D693 /* ReachStateWIFI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWIFI.h; path = RealReachability/FSM/ReachStateWIFI.h; sourceTree = "<group>"; };
-		81ED131E5FCC385B4FA66F11C7D275B7 /* Pods-RealReachabilityTestDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealReachabilityTestDemo-resources.sh"; sourceTree = "<group>"; };
-		838655D11F609B0D412E964EA2B1CD8B /* PingFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingFoundation.m; path = RealReachability/Ping/PingFoundation.m; sourceTree = "<group>"; };
-		8647C3C76E0335A8BAD0BD13AA1A6B49 /* ReachStateWWAN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWWAN.h; path = RealReachability/FSM/ReachStateWWAN.h; sourceTree = "<group>"; };
-		86A75F5C9E8C1A4D485B9F5FACBDCD12 /* ReachStateWWAN.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWWAN.m; path = RealReachability/FSM/ReachStateWWAN.m; sourceTree = "<group>"; };
-		89E9F0AAB5DA01AFF6996A6B0EADB786 /* LocalConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LocalConnection.m; path = RealReachability/Connection/LocalConnection.m; sourceTree = "<group>"; };
-		8FFBC295AC2D2F4FEB2FFFB29B5C68AF /* PingHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingHelper.h; path = RealReachability/Ping/PingHelper.h; sourceTree = "<group>"; };
-		9FC9872ED7B0EA49DCFCCA92B8E45B2E /* PingHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingHelper.m; path = RealReachability/Ping/PingHelper.m; sourceTree = "<group>"; };
-		A8446E19B617BA031593055751C28CA7 /* ReachStateUnloaded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnloaded.h; path = RealReachability/FSM/ReachStateUnloaded.h; sourceTree = "<group>"; };
-		A948BD8474490111CCC42B01E4A9C8C1 /* ReachState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachState.m; path = RealReachability/FSM/ReachState.m; sourceTree = "<group>"; };
-		A9A0FAFB7906D5E357A2892D48A765F7 /* ReachStateLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateLoading.m; path = RealReachability/FSM/ReachStateLoading.m; sourceTree = "<group>"; };
-		B69876D0386BB56C7D5512F37DE38577 /* ReachStateUnloaded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnloaded.m; path = RealReachability/FSM/ReachStateUnloaded.m; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BC528578999353FBBFE515EC0309AACC /* libRealReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRealReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCA3438960CC237FF7F8245C6E0FCC50 /* FSMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMDefines.h; path = RealReachability/FSM/FSMDefines.h; sourceTree = "<group>"; };
-		BD01227A74674E3B38CCF20DFDFE44BE /* RealReachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealReachability-prefix.pch"; sourceTree = "<group>"; };
-		CC6FD010D5DE57FB7B5B04493BE34867 /* ReachStateUnReachable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnReachable.m; path = RealReachability/FSM/ReachStateUnReachable.m; sourceTree = "<group>"; };
-		D3623BCAC9ED50B8A14A06F85A7C2A1D /* ReachStateWIFI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWIFI.m; path = RealReachability/FSM/ReachStateWIFI.m; sourceTree = "<group>"; };
-		D9CEF2A90BE37264D1CFA326533D67E9 /* ReachState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachState.h; path = RealReachability/FSM/ReachState.h; sourceTree = "<group>"; };
-		DC1C7ED526DE8D57A75A16176198DE7F /* RealReachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealReachability-dummy.m"; sourceTree = "<group>"; };
-		F8E1A23A197C4F365EC7BACC6F50CAAD /* FSMStateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMStateUtil.h; path = RealReachability/FSM/FSMStateUtil.h; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		A56D9CAAE97C47D99CF8D75F752027BC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DB0867ECB69A3D22E5ADE7DDF345D6D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9054E8D68AB8A4266165FEDB592FA73 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AE0AE17A9F754D4B2201A2CBB6E322E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		4FF07A36E70E59DE84C2190DBD5D70FB /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DB6A4E67F96A44E783425287B2EE013B /* Pods-RealReachabilityTestDemo */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		52F263D19193F5466E6DD581381B4883 /* RealReachability */ = {
-			isa = PBXGroup;
-			children = (
-				BCA3438960CC237FF7F8245C6E0FCC50 /* FSMDefines.h */,
-				1203B06739A51D8FBA8F2678FBE8262B /* FSMEngine.h */,
-				000EF95C1B3430391D22638ECD639A22 /* FSMEngine.m */,
-				F8E1A23A197C4F365EC7BACC6F50CAAD /* FSMStateUtil.h */,
-				3F53ED48DEB0594A65D0F888202673DC /* FSMStateUtil.m */,
-				3D0463DE69457CC077C8F5C8A548B3F7 /* LocalConnection.h */,
-				89E9F0AAB5DA01AFF6996A6B0EADB786 /* LocalConnection.m */,
-				35823416F58D23F022CDEE6A834F9268 /* PingFoundation.h */,
-				838655D11F609B0D412E964EA2B1CD8B /* PingFoundation.m */,
-				8FFBC295AC2D2F4FEB2FFFB29B5C68AF /* PingHelper.h */,
-				9FC9872ED7B0EA49DCFCCA92B8E45B2E /* PingHelper.m */,
-				D9CEF2A90BE37264D1CFA326533D67E9 /* ReachState.h */,
-				A948BD8474490111CCC42B01E4A9C8C1 /* ReachState.m */,
-				173023F595013CBC55F53BDC0D1B0D37 /* ReachStateLoading.h */,
-				A9A0FAFB7906D5E357A2892D48A765F7 /* ReachStateLoading.m */,
-				A8446E19B617BA031593055751C28CA7 /* ReachStateUnloaded.h */,
-				B69876D0386BB56C7D5512F37DE38577 /* ReachStateUnloaded.m */,
-				34A8C2248F24B58B298F2A139AB1B66F /* ReachStateUnReachable.h */,
-				CC6FD010D5DE57FB7B5B04493BE34867 /* ReachStateUnReachable.m */,
-				79B9B21EFB7515F377752D51DB04D693 /* ReachStateWIFI.h */,
-				D3623BCAC9ED50B8A14A06F85A7C2A1D /* ReachStateWIFI.m */,
-				8647C3C76E0335A8BAD0BD13AA1A6B49 /* ReachStateWWAN.h */,
-				86A75F5C9E8C1A4D485B9F5FACBDCD12 /* ReachStateWWAN.m */,
-				39BC5DE370023B50FFCD56C0A1ADD8DB /* RealReachability.h */,
-				68009C36321D6EAC34F3373084184364 /* RealReachability.m */,
-				C416FB2B5BDDC6C71DDBD84605388D3D /* Support Files */,
-			);
-			path = RealReachability;
-			sourceTree = "<group>";
-		};
-		60E2225E71160FB0EB6F81E5B0869A6B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				52F263D19193F5466E6DD581381B4883 /* RealReachability */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				60E2225E71160FB0EB6F81E5B0869A6B /* Pods */,
-				EEE2C17FCC76C44BE2F43AADCFB312D5 /* Products */,
-				4FF07A36E70E59DE84C2190DBD5D70FB /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C416FB2B5BDDC6C71DDBD84605388D3D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0A985E72C080B22BD7F379166645D47B /* RealReachability.xcconfig */,
-				DC1C7ED526DE8D57A75A16176198DE7F /* RealReachability-dummy.m */,
-				BD01227A74674E3B38CCF20DFDFE44BE /* RealReachability-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RealReachability";
-			sourceTree = "<group>";
-		};
-		DB6A4E67F96A44E783425287B2EE013B /* Pods-RealReachabilityTestDemo */ = {
-			isa = PBXGroup;
-			children = (
-				12CE3F8DD9A06EFE38DFF163E0910AFD /* Pods-RealReachabilityTestDemo-acknowledgements.markdown */,
-				30ED959A681A9BF66489B81657750D58 /* Pods-RealReachabilityTestDemo-acknowledgements.plist */,
-				6954A48014EE1DA8AE8724914F7EC01A /* Pods-RealReachabilityTestDemo-dummy.m */,
-				39BF6DCA11D591F0D7BF99D167BF0366 /* Pods-RealReachabilityTestDemo-frameworks.sh */,
-				81ED131E5FCC385B4FA66F11C7D275B7 /* Pods-RealReachabilityTestDemo-resources.sh */,
-				3C232C29776C0B26D2D8B4B462B4AEEE /* Pods-RealReachabilityTestDemo.debug.xcconfig */,
-				5417787E3E5453F21B6634EC2A8F65F2 /* Pods-RealReachabilityTestDemo.release.xcconfig */,
-			);
-			name = "Pods-RealReachabilityTestDemo";
-			path = "Target Support Files/Pods-RealReachabilityTestDemo";
-			sourceTree = "<group>";
-		};
-		EEE2C17FCC76C44BE2F43AADCFB312D5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				49EF91FFB241F85722AEBB9732593BA4 /* libPods-RealReachabilityTestDemo.a */,
-				BC528578999353FBBFE515EC0309AACC /* libRealReachability.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		7B692E02C09324DEE56CB2287985D3C3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				263543553A425D7F619290311C5A9FE7 /* FSMDefines.h in Headers */,
-				59E789877B30EC8B00FF5D99F5A92CD7 /* FSMEngine.h in Headers */,
-				02D4733032EFAC6F69B09118D85B72D4 /* FSMStateUtil.h in Headers */,
-				ED98A83697FD031E7B7669671B7C8E8A /* LocalConnection.h in Headers */,
-				C5FEA8140FF83883FDA5D2D37DD1B99B /* PingFoundation.h in Headers */,
-				13C25724B743B9BEDD2289729B2E82DD /* PingHelper.h in Headers */,
-				AE1CF91BDBA7C3C5ED5811A3B03BFEA2 /* ReachState.h in Headers */,
-				219F39FAC2F68AD740D80E1AD22E8018 /* ReachStateLoading.h in Headers */,
-				CC3B9D3BD1C55C93D386136F86C1A838 /* ReachStateUnloaded.h in Headers */,
-				55BE877440704FC53D19268D8AC7315B /* ReachStateUnReachable.h in Headers */,
-				C84A0B671C21DF009FE50181E92C458E /* ReachStateWIFI.h in Headers */,
-				293127A86C4E1EE822C4920EA7403471 /* ReachStateWWAN.h in Headers */,
-				A1F7EEDCDCC1FB7D06A12E475E25124D /* RealReachability.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		565724E9C0191C30AFB8230E2ECF2C79 /* Pods-RealReachabilityTestDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2373CC72E59532D11AB1EF6DFD0A8E8B /* Build configuration list for PBXNativeTarget "Pods-RealReachabilityTestDemo" */;
-			buildPhases = (
-				E5CD19DDC573DF8D604956B5B6549293 /* Sources */,
-				A9054E8D68AB8A4266165FEDB592FA73 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F719BD53567608BF4AD31727916CEDB8 /* PBXTargetDependency */,
-			);
-			name = "Pods-RealReachabilityTestDemo";
-			productName = "Pods-RealReachabilityTestDemo";
-			productReference = 49EF91FFB241F85722AEBB9732593BA4 /* libPods-RealReachabilityTestDemo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		74E02A6084DC3540DD01A91C8698EAE3 /* RealReachability */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37C4087E0CA9F8B5A07CC9A0F7E26B86 /* Build configuration list for PBXNativeTarget "RealReachability" */;
-			buildPhases = (
-				F27F067C0957D2C458CFA1764DDE5793 /* Sources */,
-				A56D9CAAE97C47D99CF8D75F752027BC /* Frameworks */,
-				7B692E02C09324DEE56CB2287985D3C3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RealReachability;
-			productName = RealReachability;
-			productReference = BC528578999353FBBFE515EC0309AACC /* libRealReachability.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EEE2C17FCC76C44BE2F43AADCFB312D5 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				565724E9C0191C30AFB8230E2ECF2C79 /* Pods-RealReachabilityTestDemo */,
-				74E02A6084DC3540DD01A91C8698EAE3 /* RealReachability */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		E5CD19DDC573DF8D604956B5B6549293 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35B16391CD8FE5DC15540422D139F729 /* Pods-RealReachabilityTestDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F27F067C0957D2C458CFA1764DDE5793 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4AE7C75CC8D4C3AD9B0CDB23AE869BA /* FSMEngine.m in Sources */,
-				693C6E5EF31955D94C5CC6D0C6CAFBED /* FSMStateUtil.m in Sources */,
-				ED77F316567D50D00B71148402661D3E /* LocalConnection.m in Sources */,
-				B97127481A35207572841DEED7B9BA4A /* PingFoundation.m in Sources */,
-				EA4C3BCB587184DAB14FBC12E1FA4801 /* PingHelper.m in Sources */,
-				B6CA85393706C137A661790D11559BF6 /* ReachState.m in Sources */,
-				59AFB3E080300BBAF60A43521DF91A5F /* ReachStateLoading.m in Sources */,
-				CC845A725D72CAB77C1D5236ADF132C7 /* ReachStateUnloaded.m in Sources */,
-				4D3E5277AA8B0550546A6236055E4B29 /* ReachStateUnReachable.m in Sources */,
-				C362858B3E6D49559F778E4E06114CD8 /* ReachStateWIFI.m in Sources */,
-				65AA9D8F73CEEC0484C3136C01CD6D49 /* ReachStateWWAN.m in Sources */,
-				1553AF9BCE9F35B60BDD1B5A6129FFDC /* RealReachability-dummy.m in Sources */,
-				AB81D982E7366238B5CACA5E56C14097 /* RealReachability.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F719BD53567608BF4AD31727916CEDB8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RealReachability;
-			target = 74E02A6084DC3540DD01A91C8698EAE3 /* RealReachability */;
-			targetProxy = D0095257C50A1C8B7B916932AA243C8C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		2DD659EEC6A84651FFFD95B3696C8464 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A985E72C080B22BD7F379166645D47B /* RealReachability.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RealReachability/RealReachability-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		633C6D672EB2AFF9243E447DA31E039E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A985E72C080B22BD7F379166645D47B /* RealReachability.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RealReachability/RealReachability-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6992599EB6A947C69304D6F2406DFEDB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5417787E3E5453F21B6634EC2A8F65F2 /* Pods-RealReachabilityTestDemo.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		B29EE68E44143719BF100BD724BE447A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C232C29776C0B26D2D8B4B462B4AEEE /* Pods-RealReachabilityTestDemo.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2373CC72E59532D11AB1EF6DFD0A8E8B /* Build configuration list for PBXNativeTarget "Pods-RealReachabilityTestDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B29EE68E44143719BF100BD724BE447A /* Debug */,
-				6992599EB6A947C69304D6F2406DFEDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8D1534490D941DCA47C62AC4314182AF /* Debug */,
-				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37C4087E0CA9F8B5A07CC9A0F7E26B86 /* Build configuration list for PBXNativeTarget "RealReachability" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2DD659EEC6A84651FFFD95B3696C8464 /* Debug */,
-				633C6D672EB2AFF9243E447DA31E039E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>000EF95C1B3430391D22638ECD639A22</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FSMEngine.m</string>
+			<key>path</key>
+			<string>RealReachability/FSM/FSMEngine.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>02D4733032EFAC6F69B09118D85B72D4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F8E1A23A197C4F365EC7BACC6F50CAAD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0A985E72C080B22BD7F379166645D47B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>RealReachability.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1203B06739A51D8FBA8F2678FBE8262B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FSMEngine.h</string>
+			<key>path</key>
+			<string>RealReachability/FSM/FSMEngine.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12CE3F8DD9A06EFE38DFF163E0910AFD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-RealReachabilityTestDemo-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13C25724B743B9BEDD2289729B2E82DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8FFBC295AC2D2F4FEB2FFFB29B5C68AF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>1553AF9BCE9F35B60BDD1B5A6129FFDC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DC1C7ED526DE8D57A75A16176198DE7F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>173023F595013CBC55F53BDC0D1B0D37</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ReachStateLoading.h</string>
+			<key>path</key>
+			<string>RealReachability/FSM/ReachStateLoading.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>219F39FAC2F68AD740D80E1AD22E8018</key>
+		<dict>
+			<key>fileRef</key>
+			<string>173023F595013CBC55F53BDC0D1B0D37</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2373CC72E59532D11AB1EF6DFD0A8E8B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B29EE68E44143719BF100BD724BE447A</string>
+				<string>6992599EB6A947C69304D6F2406DFEDB</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>263543553A425D7F619290311C5A9FE7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BCA3438960CC237FF7F8245C6E0FCC50</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>293127A86C4E1EE822C4920EA7403471</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8647C3C76E0335A8BAD0BD13AA1A6B49</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2AE0AE17A9F754D4B2201A2CBB6E322E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8D1534490D941DCA47C62AC4314182AF</string>
+				<string>C5A18280E9321A9268D1C80B7DA43967</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2DB0867ECB69A3D22E5ADE7DDF345D6D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DD659EEC6A84651FFFD95B3696C8464</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0A985E72C080B22BD7F379166645D47B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/RealReachability/RealReachability-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>30ED959A681A9BF66489B81657750D58</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-RealReachabilityTestDemo-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>34A8C2248F24B58B298F2A139AB1B66F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ReachStateUnReachable.h</string>
+			<key>path</key>
+			<string>RealReachability/FSM/ReachStateUnReachable.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>35823416F58D23F022CDEE6A834F9268</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PingFoundation.h</string>
+			<key>path</key>
+			<string>RealReachability/Ping/PingFoundation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>35B16391CD8FE5DC15540422D139F729</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6954A48014EE1DA8AE8724914F7EC01A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>37C4087E0CA9F8B5A07CC9A0F7E26B86</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2DD659EEC6A84651FFFD95B3696C8464</string>
+				<string>633C6D672EB2AFF9243E447DA31E039E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>39BC5DE370023B50FFCD56C0A1ADD8DB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RealReachability.h</string>
+			<key>path</key>
+			<string>RealReachability/RealReachability.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>39BF6DCA11D591F0D7BF99D167BF0366</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-RealReachabilityTestDemo-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3C232C29776C0B26D2D8B4B462B4AEEE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-RealReachabilityTestDemo.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3D0463DE69457CC077C8F5C8A548B3F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>LocalConnection.h</string>
+			<key>path</key>
+			<string>RealReachability/Connection/LocalConnection.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3E4E89230EF59BC255123B67864ACF77</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>3F53ED48DEB0594A65D0F888202673DC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FSMStateUtil.m</string>
+			<key>path</key>
+			<string>RealReachability/FSM/FSMStateUtil.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>49EF91FFB241F85722AEBB9732593BA4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-RealReachabilityTestDemo.a</string>
+			<key>path</key>
+			<string>libPods-RealReachabilityTestDemo.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>4D3E5277AA8B0550546A6236055E4B29</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC6FD010D5DE57FB7B5B04493BE34867</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4FF07A36E70E59DE84C2190DBD5D70FB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DB6A4E67F96A44E783425287B2EE013B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52F263D19193F5466E6DD581381B4883</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BCA3438960CC237FF7F8245C6E0FCC50</string>
+				<string>1203B06739A51D8FBA8F2678FBE8262B</string>
+				<string>000EF95C1B3430391D22638ECD639A22</string>
+				<string>F8E1A23A197C4F365EC7BACC6F50CAAD</string>
+				<string>3F53ED48DEB0594A65D0F888202673DC</string>
+				<string>3D0463DE69457CC077C8F5C8A548B3F7</string>
+				<string>89E9F0AAB5DA01AFF6996A6B0EADB786</string>
+				<string>35823416F58D23F022CDEE6A834F9268</string>
+				<string>838655D11F609B0D412E964EA2B1CD8B</string>
+				<string>8FFBC295AC2D2F4FEB2FFFB29B5C68AF</string>
+				<string>9FC9872ED7B0EA49DCFCCA92B8E45B2E</string>
+				<string>D9CEF2A90BE37264D1CFA326533D67E9</string>
+				<string>A948BD8474490111CCC42B01E4A9C8C1</string>
+				<string>173023F595013CBC55F53BDC0D1B0D37</string>
+				<string>A9A0FAFB7906D5E357A2892D48A765F7</string>
+				<string>A8446E19B617BA031593055751C28CA7</string>
+				<string>B69876D0386BB56C7D5512F37DE38577</string>
+				<string>34A8C2248F24B58B298F2A139AB1B66F</string>
+				<string>CC6FD010D5DE57FB7B5B04493BE34867</string>
+				<string>79B9B21EFB7515F377752D51DB04D693</string>
+				<string>D3623BCAC9ED50B8A14A06F85A7C2A1D</string>
+				<string>8647C3C76E0335A8BAD0BD13AA1A6B49</string>
+				<string>86A75F5C9E8C1A4D485B9F5FACBDCD12</string>
+				<string>39BC5DE370023B50FFCD56C0A1ADD8DB</string>
+				<string>68009C36321D6EAC34F3373084184364</string>
+				<string>C416FB2B5BDDC6C71DDBD84605388D3D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>RealReachability</string>
+			<key>path</key>
+			<string>RealReachability</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5417787E3E5453F21B6634EC2A8F65F2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-RealReachabilityTestDemo.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>55BE877440704FC53D19268D8AC7315B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>34A8C2248F24B58B298F2A139AB1B66F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>565724E9C0191C30AFB8230E2ECF2C79</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>2373CC72E59532D11AB1EF6DFD0A8E8B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>E5CD19DDC573DF8D604956B5B6549293</string>
+				<string>A9054E8D68AB8A4266165FEDB592FA73</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>F719BD53567608BF4AD31727916CEDB8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-RealReachabilityTestDemo</string>
+			<key>productName</key>
+			<string>Pods-RealReachabilityTestDemo</string>
+			<key>productReference</key>
+			<string>49EF91FFB241F85722AEBB9732593BA4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>59AFB3E080300BBAF60A43521DF91A5F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A9A0FAFB7906D5E357A2892D48A765F7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>59E789877B30EC8B00FF5D99F5A92CD7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1203B06739A51D8FBA8F2678FBE8262B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>60E2225E71160FB0EB6F81E5B0869A6B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>52F263D19193F5466E6DD581381B4883</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>633C6D672EB2AFF9243E447DA31E039E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0A985E72C080B22BD7F379166645D47B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/RealReachability/RealReachability-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>65AA9D8F73CEEC0484C3136C01CD6D49</key>
+		<dict>
+			<key>fileRef</key>
+			<string>86A75F5C9E8C1A4D485B9F5FACBDCD12</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>68009C36321D6EAC34F3373084184364</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RealReachability.m</string>
+			<key>path</key>
+			<string>RealReachability/RealReachability.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>693C6E5EF31955D94C5CC6D0C6CAFBED</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3F53ED48DEB0594A65D0F888202673DC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6954A48014EE1DA8AE8724914F7EC01A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-RealReachabilityTestDemo-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6992599EB6A947C69304D6F2406DFEDB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5417787E3E5453F21B6634EC2A8F65F2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>74E02A6084DC3540DD01A91C8698EAE3</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>37C4087E0CA9F8B5A07CC9A0F7E26B86</string>
+			<key>buildPhases</key>
+			<array>
+				<string>F27F067C0957D2C458CFA1764DDE5793</string>
+				<string>A56D9CAAE97C47D99CF8D75F752027BC</string>
+				<string>7B692E02C09324DEE56CB2287985D3C3</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>RealReachability</string>
+			<key>productName</key>
+			<string>RealReachability</string>
+			<key>productReference</key>
+			<string>BC528578999353FBBFE515EC0309AACC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>79B9B21EFB7515F377752D51DB04D693</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ReachStateWIFI.h</string>
+			<key>path</key>
+			<string>RealReachability/FSM/ReachStateWIFI.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7B692E02C09324DEE56CB2287985D3C3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>263543553A425D7F619290311C5A9FE7</string>
+				<string>59E789877B30EC8B00FF5D99F5A92CD7</string>
+				<string>02D4733032EFAC6F69B09118D85B72D4</string>
+				<string>ED98A83697FD031E7B7669671B7C8E8A</string>
+				<string>C5FEA8140FF83883FDA5D2D37DD1B99B</string>
+				<string>13C25724B743B9BEDD2289729B2E82DD</string>
+				<string>AE1CF91BDBA7C3C5ED5811A3B03BFEA2</string>
+				<string>219F39FAC2F68AD740D80E1AD22E8018</string>
+				<string>CC3B9D3BD1C55C93D386136F86C1A838</string>
+				<string>55BE877440704FC53D19268D8AC7315B</string>
+				<string>C84A0B671C21DF009FE50181E92C458E</string>
+				<string>293127A86C4E1EE822C4920EA7403471</string>
+				<string>A1F7EEDCDCC1FB7D06A12E475E25124D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
+				<string>60E2225E71160FB0EB6F81E5B0869A6B</string>
+				<string>EEE2C17FCC76C44BE2F43AADCFB312D5</string>
+				<string>4FF07A36E70E59DE84C2190DBD5D70FB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>81ED131E5FCC385B4FA66F11C7D275B7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-RealReachabilityTestDemo-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>838655D11F609B0D412E964EA2B1CD8B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>PingFoundation.m</string>
+			<key>path</key>
+			<string>RealReachability/Ping/PingFoundation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8647C3C76E0335A8BAD0BD13AA1A6B49</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ReachStateWWAN.h</string>
+			<key>path</key>
+			<string>RealReachability/FSM/ReachStateWWAN.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86A75F5C9E8C1A4D485B9F5FACBDCD12</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ReachStateWWAN.m</string>
+			<key>path</key>
+			<string>RealReachability/FSM/ReachStateWWAN.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>89E9F0AAB5DA01AFF6996A6B0EADB786</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>LocalConnection.m</string>
+			<key>path</key>
+			<string>RealReachability/Connection/LocalConnection.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8D1534490D941DCA47C62AC4314182AF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8FFBC295AC2D2F4FEB2FFFB29B5C68AF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PingHelper.h</string>
+			<key>path</key>
+			<string>RealReachability/Ping/PingHelper.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9FC9872ED7B0EA49DCFCCA92B8E45B2E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>PingHelper.m</string>
+			<key>path</key>
+			<string>RealReachability/Ping/PingHelper.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A1F7EEDCDCC1FB7D06A12E475E25124D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>39BC5DE370023B50FFCD56C0A1ADD8DB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A56D9CAAE97C47D99CF8D75F752027BC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2DB0867ECB69A3D22E5ADE7DDF345D6D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A8446E19B617BA031593055751C28CA7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ReachStateUnloaded.h</string>
+			<key>path</key>
+			<string>RealReachability/FSM/ReachStateUnloaded.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A9054E8D68AB8A4266165FEDB592FA73</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2AE0AE17A9F754D4B2201A2CBB6E322E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A948BD8474490111CCC42B01E4A9C8C1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ReachState.m</string>
+			<key>path</key>
+			<string>RealReachability/FSM/ReachState.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A9A0FAFB7906D5E357A2892D48A765F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ReachStateLoading.m</string>
+			<key>path</key>
+			<string>RealReachability/FSM/ReachStateLoading.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AB81D982E7366238B5CACA5E56C14097</key>
+		<dict>
+			<key>fileRef</key>
+			<string>68009C36321D6EAC34F3373084184364</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AE1CF91BDBA7C3C5ED5811A3B03BFEA2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D9CEF2A90BE37264D1CFA326533D67E9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B29EE68E44143719BF100BD724BE447A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3C232C29776C0B26D2D8B4B462B4AEEE</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>B69876D0386BB56C7D5512F37DE38577</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ReachStateUnloaded.m</string>
+			<key>path</key>
+			<string>RealReachability/FSM/ReachStateUnloaded.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B6CA85393706C137A661790D11559BF6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A948BD8474490111CCC42B01E4A9C8C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B97127481A35207572841DEED7B9BA4A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>838655D11F609B0D412E964EA2B1CD8B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC528578999353FBBFE515EC0309AACC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libRealReachability.a</string>
+			<key>path</key>
+			<string>libRealReachability.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>BCA3438960CC237FF7F8245C6E0FCC50</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FSMDefines.h</string>
+			<key>path</key>
+			<string>RealReachability/FSM/FSMDefines.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BD01227A74674E3B38CCF20DFDFE44BE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>RealReachability-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3E4E89230EF59BC255123B67864ACF77</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C362858B3E6D49559F778E4E06114CD8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D3623BCAC9ED50B8A14A06F85A7C2A1D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C416FB2B5BDDC6C71DDBD84605388D3D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0A985E72C080B22BD7F379166645D47B</string>
+				<string>DC1C7ED526DE8D57A75A16176198DE7F</string>
+				<string>BD01227A74674E3B38CCF20DFDFE44BE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/RealReachability</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5A18280E9321A9268D1C80B7DA43967</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>RELEASE=1</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C5FEA8140FF83883FDA5D2D37DD1B99B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>35823416F58D23F022CDEE6A834F9268</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C84A0B671C21DF009FE50181E92C458E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>79B9B21EFB7515F377752D51DB04D693</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CC3B9D3BD1C55C93D386136F86C1A838</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A8446E19B617BA031593055751C28CA7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CC6FD010D5DE57FB7B5B04493BE34867</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ReachStateUnReachable.m</string>
+			<key>path</key>
+			<string>RealReachability/FSM/ReachStateUnReachable.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC845A725D72CAB77C1D5236ADF132C7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B69876D0386BB56C7D5512F37DE38577</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D0095257C50A1C8B7B916932AA243C8C</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>74E02A6084DC3540DD01A91C8698EAE3</string>
+			<key>remoteInfo</key>
+			<string>RealReachability</string>
+		</dict>
+		<key>D3623BCAC9ED50B8A14A06F85A7C2A1D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ReachStateWIFI.m</string>
+			<key>path</key>
+			<string>RealReachability/FSM/ReachStateWIFI.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D41D8CD98F00B204E9800998ECF8427E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0700</string>
+				<key>LastUpgradeCheck</key>
+				<string>0700</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7DB346D0F39D3F0E887471402A8071AB</string>
+			<key>productRefGroup</key>
+			<string>EEE2C17FCC76C44BE2F43AADCFB312D5</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>565724E9C0191C30AFB8230E2ECF2C79</string>
+				<string>74E02A6084DC3540DD01A91C8698EAE3</string>
+			</array>
+		</dict>
+		<key>D4AE7C75CC8D4C3AD9B0CDB23AE869BA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>000EF95C1B3430391D22638ECD639A22</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D9CEF2A90BE37264D1CFA326533D67E9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ReachState.h</string>
+			<key>path</key>
+			<string>RealReachability/FSM/ReachState.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DB6A4E67F96A44E783425287B2EE013B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>12CE3F8DD9A06EFE38DFF163E0910AFD</string>
+				<string>30ED959A681A9BF66489B81657750D58</string>
+				<string>6954A48014EE1DA8AE8724914F7EC01A</string>
+				<string>39BF6DCA11D591F0D7BF99D167BF0366</string>
+				<string>81ED131E5FCC385B4FA66F11C7D275B7</string>
+				<string>3C232C29776C0B26D2D8B4B462B4AEEE</string>
+				<string>5417787E3E5453F21B6634EC2A8F65F2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-RealReachabilityTestDemo</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-RealReachabilityTestDemo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DC1C7ED526DE8D57A75A16176198DE7F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RealReachability-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E5CD19DDC573DF8D604956B5B6549293</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>35B16391CD8FE5DC15540422D139F729</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EA4C3BCB587184DAB14FBC12E1FA4801</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9FC9872ED7B0EA49DCFCCA92B8E45B2E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ED77F316567D50D00B71148402661D3E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>89E9F0AAB5DA01AFF6996A6B0EADB786</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ED98A83697FD031E7B7669671B7C8E8A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3D0463DE69457CC077C8F5C8A548B3F7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>EEE2C17FCC76C44BE2F43AADCFB312D5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>49EF91FFB241F85722AEBB9732593BA4</string>
+				<string>BC528578999353FBBFE515EC0309AACC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F27F067C0957D2C458CFA1764DDE5793</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D4AE7C75CC8D4C3AD9B0CDB23AE869BA</string>
+				<string>693C6E5EF31955D94C5CC6D0C6CAFBED</string>
+				<string>ED77F316567D50D00B71148402661D3E</string>
+				<string>B97127481A35207572841DEED7B9BA4A</string>
+				<string>EA4C3BCB587184DAB14FBC12E1FA4801</string>
+				<string>B6CA85393706C137A661790D11559BF6</string>
+				<string>59AFB3E080300BBAF60A43521DF91A5F</string>
+				<string>CC845A725D72CAB77C1D5236ADF132C7</string>
+				<string>4D3E5277AA8B0550546A6236055E4B29</string>
+				<string>C362858B3E6D49559F778E4E06114CD8</string>
+				<string>65AA9D8F73CEEC0484C3136C01CD6D49</string>
+				<string>1553AF9BCE9F35B60BDD1B5A6129FFDC</string>
+				<string>AB81D982E7366238B5CACA5E56C14097</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F719BD53567608BF4AD31727916CEDB8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>RealReachability</string>
+			<key>target</key>
+			<string>74E02A6084DC3540DD01A91C8698EAE3</string>
+			<key>targetProxy</key>
+			<string>D0095257C50A1C8B7B916932AA243C8C</string>
+		</dict>
+		<key>F8E1A23A197C4F365EC7BACC6F50CAAD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FSMStateUtil.h</string>
+			<key>path</key>
+			<string>RealReachability/FSM/FSMStateUtil.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D41D8CD98F00B204E9800998ECF8427E</string>
+</dict>
+</plist>
