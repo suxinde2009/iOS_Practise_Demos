@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F8FB48E1CF75E9300EE109B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FB48D1CF75E9300EE109B /* main.m */; };
+		1F8FB4911CF75E9300EE109B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FB4901CF75E9300EE109B /* AppDelegate.m */; };
+		1F8FB4941CF75E9300EE109B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FB4931CF75E9300EE109B /* ViewController.m */; };
+		1F8FB4971CF75E9300EE109B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8FB4951CF75E9300EE109B /* Main.storyboard */; };
+		1F8FB4991CF75E9300EE109B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8FB4981CF75E9300EE109B /* Assets.xcassets */; };
+		1F8FB49C1CF75E9300EE109B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8FB49A1CF75E9300EE109B /* LaunchScreen.storyboard */; };
+		1F8FB4A71CF75EE900EE109B /* PostCodeInChinaStoreByCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FB4A51CF75EE900EE109B /* PostCodeInChinaStoreByCoreData.xcdatamodeld */; };
+		1F8FB4AC1CF75F7300EE109B /* PostCode+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FB4A91CF75F7300EE109B /* PostCode+CoreDataProperties.m */; };
+		1F8FB4AD1CF75F7300EE109B /* PostCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FB4AB1CF75F7300EE109B /* PostCode.m */; };
+		1F8FB4AF1CF75FC300EE109B /* 城市邮编最终整理_方便导入数据库.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F8FB4AE1CF75FC300EE109B /* 城市邮编最终整理_方便导入数据库.txt */; };
+		1F8FB4B21CF75FF300EE109B /* XDStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FB4B11CF75FF300EE109B /* XDStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F8FB4891CF75E9300EE109B /* PostCodeInChinaStoreByCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostCodeInChinaStoreByCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8FB48D1CF75E9300EE109B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F8FB48F1CF75E9300EE109B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F8FB4901CF75E9300EE109B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F8FB4921CF75E9300EE109B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F8FB4931CF75E9300EE109B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F8FB4961CF75E9300EE109B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F8FB4981CF75E9300EE109B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F8FB49B1CF75E9300EE109B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F8FB49D1CF75E9300EE109B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8FB4A61CF75EE900EE109B /* PostCodeInChinaStoreByCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PostCodeInChinaStoreByCoreData.xcdatamodel; sourceTree = "<group>"; };
+		1F8FB4A81CF75F7300EE109B /* PostCode+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PostCode+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1F8FB4A91CF75F7300EE109B /* PostCode+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PostCode+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1F8FB4AA1CF75F7300EE109B /* PostCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostCode.h; sourceTree = "<group>"; };
+		1F8FB4AB1CF75F7300EE109B /* PostCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostCode.m; sourceTree = "<group>"; };
+		1F8FB4AE1CF75FC300EE109B /* 城市邮编最终整理_方便导入数据库.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "城市邮编最终整理_方便导入数据库.txt"; sourceTree = "<group>"; };
+		1F8FB4B01CF75FF300EE109B /* XDStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDStore.h; sourceTree = "<group>"; };
+		1F8FB4B11CF75FF300EE109B /* XDStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F8FB4861CF75E9300EE109B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F8FB4801CF75E9300EE109B = {
+			isa = PBXGroup;
+			children = (
+				1F8FB48B1CF75E9300EE109B /* PostCodeInChinaStoreByCoreData */,
+				1F8FB48A1CF75E9300EE109B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F8FB48A1CF75E9300EE109B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F8FB4891CF75E9300EE109B /* PostCodeInChinaStoreByCoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F8FB48B1CF75E9300EE109B /* PostCodeInChinaStoreByCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1F8FB48F1CF75E9300EE109B /* AppDelegate.h */,
+				1F8FB4901CF75E9300EE109B /* AppDelegate.m */,
+				1F8FB4921CF75E9300EE109B /* ViewController.h */,
+				1F8FB4931CF75E9300EE109B /* ViewController.m */,
+				1F8FB4951CF75E9300EE109B /* Main.storyboard */,
+				1F8FB4981CF75E9300EE109B /* Assets.xcassets */,
+				1F8FB49A1CF75E9300EE109B /* LaunchScreen.storyboard */,
+				1F8FB49D1CF75E9300EE109B /* Info.plist */,
+				1F8FB4A31CF75ECE00EE109B /* Resources */,
+				1F8FB4A41CF75ECE00EE109B /* Src */,
+				1F8FB48C1CF75E9300EE109B /* Supporting Files */,
+			);
+			path = PostCodeInChinaStoreByCoreData;
+			sourceTree = "<group>";
+		};
+		1F8FB48C1CF75E9300EE109B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F8FB48D1CF75E9300EE109B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F8FB4A31CF75ECE00EE109B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F8FB4AE1CF75FC300EE109B /* 城市邮编最终整理_方便导入数据库.txt */,
+				1F8FB4A51CF75EE900EE109B /* PostCodeInChinaStoreByCoreData.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1F8FB4A41CF75ECE00EE109B /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				1F8FB4A81CF75F7300EE109B /* PostCode+CoreDataProperties.h */,
+				1F8FB4A91CF75F7300EE109B /* PostCode+CoreDataProperties.m */,
+				1F8FB4AA1CF75F7300EE109B /* PostCode.h */,
+				1F8FB4AB1CF75F7300EE109B /* PostCode.m */,
+				1F8FB4B01CF75FF300EE109B /* XDStore.h */,
+				1F8FB4B11CF75FF300EE109B /* XDStore.m */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F8FB4881CF75E9300EE109B /* PostCodeInChinaStoreByCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8FB4A01CF75E9300EE109B /* Build configuration list for PBXNativeTarget "PostCodeInChinaStoreByCoreData" */;
+			buildPhases = (
+				1F8FB4851CF75E9300EE109B /* Sources */,
+				1F8FB4861CF75E9300EE109B /* Frameworks */,
+				1F8FB4871CF75E9300EE109B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostCodeInChinaStoreByCoreData;
+			productName = PostCodeInChinaStoreByCoreData;
+			productReference = 1F8FB4891CF75E9300EE109B /* PostCodeInChinaStoreByCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F8FB4811CF75E9300EE109B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = suxinde;
+				TargetAttributes = {
+					1F8FB4881CF75E9300EE109B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F8FB4841CF75E9300EE109B /* Build configuration list for PBXProject "PostCodeInChinaStoreByCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F8FB4801CF75E9300EE109B;
+			productRefGroup = 1F8FB48A1CF75E9300EE109B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F8FB4881CF75E9300EE109B /* PostCodeInChinaStoreByCoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F8FB4871CF75E9300EE109B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8FB49C1CF75E9300EE109B /* LaunchScreen.storyboard in Resources */,
+				1F8FB4AF1CF75FC300EE109B /* 城市邮编最终整理_方便导入数据库.txt in Resources */,
+				1F8FB4991CF75E9300EE109B /* Assets.xcassets in Resources */,
+				1F8FB4971CF75E9300EE109B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F8FB4851CF75E9300EE109B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8FB4AD1CF75F7300EE109B /* PostCode.m in Sources */,
+				1F8FB4941CF75E9300EE109B /* ViewController.m in Sources */,
+				1F8FB4A71CF75EE900EE109B /* PostCodeInChinaStoreByCoreData.xcdatamodeld in Sources */,
+				1F8FB4911CF75E9300EE109B /* AppDelegate.m in Sources */,
+				1F8FB4AC1CF75F7300EE109B /* PostCode+CoreDataProperties.m in Sources */,
+				1F8FB4B21CF75FF300EE109B /* XDStore.m in Sources */,
+				1F8FB48E1CF75E9300EE109B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F8FB4951CF75E9300EE109B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F8FB4961CF75E9300EE109B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F8FB49A1CF75E9300EE109B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F8FB49B1CF75E9300EE109B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F8FB49E1CF75E9300EE109B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F8FB49F1CF75E9300EE109B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F8FB4A11CF75E9300EE109B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PostCodeInChinaStoreByCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.PostCodeInChinaStoreByCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F8FB4A21CF75E9300EE109B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PostCodeInChinaStoreByCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.PostCodeInChinaStoreByCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F8FB4841CF75E9300EE109B /* Build configuration list for PBXProject "PostCodeInChinaStoreByCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8FB49E1CF75E9300EE109B /* Debug */,
+				1F8FB49F1CF75E9300EE109B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F8FB4A01CF75E9300EE109B /* Build configuration list for PBXNativeTarget "PostCodeInChinaStoreByCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8FB4A11CF75E9300EE109B /* Debug */,
+				1F8FB4A21CF75E9300EE109B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F8FB4A51CF75EE900EE109B /* PostCodeInChinaStoreByCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F8FB4A61CF75EE900EE109B /* PostCodeInChinaStoreByCoreData.xcdatamodel */,
+			);
+			currentVersion = 1F8FB4A61CF75EE900EE109B /* PostCodeInChinaStoreByCoreData.xcdatamodel */;
+			path = PostCodeInChinaStoreByCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F8FB4811CF75E9300EE109B /* Project object */;
+}
