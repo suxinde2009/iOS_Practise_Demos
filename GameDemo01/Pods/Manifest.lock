@@ -1,0 +1,18 @@
+PODS:
+  - CompatibleCocos2d (0.2.0):
+    - CompatibleCocos2d/cocos2d (= 0.2.0)
+    - CompatibleCocos2d/CocosDenshion (= 0.2.0)
+    - CompatibleCocos2d/kazmath (= 0.2.0)
+  - CompatibleCocos2d/cocos2d (0.2.0):
+    - CompatibleCocos2d/kazmath
+  - CompatibleCocos2d/CocosDenshion (0.2.0):
+    - CompatibleCocos2d/cocos2d
+  - CompatibleCocos2d/kazmath (0.2.0)
+
+DEPENDENCIES:
+  - CompatibleCocos2d (~> 0.2.0)
+
+SPEC CHECKSUMS:
+  CompatibleCocos2d: 887dc0c9776852cc3e4d447ea20a7f97c5e9fda0
+
+COCOAPODS: 0.39.0
