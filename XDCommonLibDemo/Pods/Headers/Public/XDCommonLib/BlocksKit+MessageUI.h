@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/BlocksKit/BlocksKit+MessageUI.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BlocksKit+MessageUI.h

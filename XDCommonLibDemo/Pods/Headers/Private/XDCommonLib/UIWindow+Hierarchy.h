@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/UIKit/UIWindow/UIWindow+Hierarchy.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIWindow/UIWindow+Hierarchy.h

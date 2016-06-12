@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/BlocksKit/UIKit/UIImagePickerController+BlocksKit.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIImagePickerController+BlocksKit.h

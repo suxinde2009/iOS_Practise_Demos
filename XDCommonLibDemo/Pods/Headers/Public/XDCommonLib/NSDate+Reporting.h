@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/Foundation/NSDate/NSDate+Reporting.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDate+Reporting.h

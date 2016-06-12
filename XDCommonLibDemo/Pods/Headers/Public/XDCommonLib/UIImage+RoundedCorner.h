@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/UIKit/UIImage/UIImage+RoundedCorner.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIImage/UIImage+RoundedCorner.h

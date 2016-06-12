@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/UIKit/UIView/UIView+Snapshot.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIView/UIView+Snapshot.h

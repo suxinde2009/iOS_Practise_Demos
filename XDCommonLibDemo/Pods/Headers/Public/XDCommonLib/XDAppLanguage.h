@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/XDAppLanguage.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDAppLanguage.h

@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/UIColor+SBCollectionViewTableLayoutColors.h

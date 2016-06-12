@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/BlocksKit/BlocksKit+QuickLook.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/BlocksKit+QuickLook.h

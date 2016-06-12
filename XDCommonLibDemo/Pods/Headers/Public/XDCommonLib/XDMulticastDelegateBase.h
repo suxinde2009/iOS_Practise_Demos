@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/XDMulticastDelegate/XDMulticastDelegateBase.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDMulticastDelegate/XDMulticastDelegateBase.h

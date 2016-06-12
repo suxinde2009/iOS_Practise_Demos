@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/UIKit/UIApplication/UIApplication+Permissions.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+Permissions.h

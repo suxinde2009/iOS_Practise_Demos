@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Media/VideoEdit/XDVideoEditor.h
+../../../XDCommonLib/XDCommonLib/BasicComponentLayer/Media/VideoEdit/XDVideoEditor.h

@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/Core/NSObject+BKBlockObservation.h

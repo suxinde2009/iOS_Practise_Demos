@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/XDCameraOrientationMonitor.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDCameraOrientationMonitor.h

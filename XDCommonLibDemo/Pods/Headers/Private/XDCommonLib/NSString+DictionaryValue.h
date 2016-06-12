@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/Foundation/NSString/NSString+DictionaryValue.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+DictionaryValue.h

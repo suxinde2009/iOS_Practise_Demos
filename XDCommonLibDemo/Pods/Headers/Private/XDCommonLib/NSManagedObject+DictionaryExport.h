@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/CoreData/NSManagedObject/NSManagedObject+DictionaryExport.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObject/NSManagedObject+DictionaryExport.h

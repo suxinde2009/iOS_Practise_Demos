@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.h

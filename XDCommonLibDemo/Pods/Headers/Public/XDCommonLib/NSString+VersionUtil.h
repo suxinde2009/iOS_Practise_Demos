@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/Foundation/NSString/NSString+VersionUtil.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSString/NSString+VersionUtil.h

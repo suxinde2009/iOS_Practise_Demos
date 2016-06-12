@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Venders/RSSwizzle/RSSwizzle.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/RSSwizzle/RSSwizzle.h

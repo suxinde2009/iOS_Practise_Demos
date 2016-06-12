@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Debug/XDDebugSystemControl.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Debug/XDDebugSystemControl.h

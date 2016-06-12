@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/BlockThrottle/DGBlockThrottle.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlockThrottle/DGBlockThrottle.h

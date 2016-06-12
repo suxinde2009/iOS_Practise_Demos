@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/XDSingleton.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/XDSingleton.h

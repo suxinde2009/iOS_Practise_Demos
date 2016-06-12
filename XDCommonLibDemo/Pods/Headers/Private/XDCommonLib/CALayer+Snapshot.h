@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/QuartzCore/CALayer/CALayer+Snapshot.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/QuartzCore/CALayer/CALayer+Snapshot.h

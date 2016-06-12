@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/ImageBeautifyUtil/XDColorMatrix.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/ImageBeautifyUtil/XDColorMatrix.h

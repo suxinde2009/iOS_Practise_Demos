@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/UIKit/UIApplication/UIApplication+NetworkActivityIndicator.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UIApplication/UIApplication+NetworkActivityIndicator.h

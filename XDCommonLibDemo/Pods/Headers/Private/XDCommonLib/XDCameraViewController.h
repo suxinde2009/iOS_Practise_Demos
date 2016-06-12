@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Media/Camera/XDCameraViewController.h
+../../../XDCommonLib/XDCommonLib/BasicComponentLayer/Media/Camera/XDCameraViewController.h

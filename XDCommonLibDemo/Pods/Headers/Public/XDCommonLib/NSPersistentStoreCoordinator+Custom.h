@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/CoreData/NSPersistentStoreCoordinator/NSPersistentStoreCoordinator+Custom.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSPersistentStoreCoordinator/NSPersistentStoreCoordinator+Custom.h

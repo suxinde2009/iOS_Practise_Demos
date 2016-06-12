@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Venders/ProtocolKit/ProtocolKit.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/ProtocolKit/ProtocolKit.h

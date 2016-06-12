@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/XDAppVerisonUpdateObserver/XDAppVerisonUpdateObserver.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/XDAppVerisonUpdateObserver/XDAppVerisonUpdateObserver.h

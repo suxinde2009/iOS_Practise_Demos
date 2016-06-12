@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSMutableURLRequest+Upload.h

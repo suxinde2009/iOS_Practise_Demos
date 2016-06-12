@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Venders/SBTableLayout/SBCollectionViewTableCell.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableCell.h

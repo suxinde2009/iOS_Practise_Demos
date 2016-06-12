@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/Foundation/NSURLRequest/NSURLRequest+ParamsFromDictionary.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSURLRequest/NSURLRequest+ParamsFromDictionary.h

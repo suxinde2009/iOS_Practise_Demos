@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Venders/SBTableLayout/SBCollectionViewTableSupplementaryView.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Venders/SBTableLayout/SBCollectionViewTableSupplementaryView.h

@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.h

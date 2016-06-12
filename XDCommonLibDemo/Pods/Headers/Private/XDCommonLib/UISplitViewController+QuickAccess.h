@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/UIKit/UISplitViewController/UISplitViewController+QuickAccess.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UISplitViewController/UISplitViewController+QuickAccess.h

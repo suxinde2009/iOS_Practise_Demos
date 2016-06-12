@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/AddressBook/XDAddressBookManager.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/AddressBook/XDAddressBookManager.h

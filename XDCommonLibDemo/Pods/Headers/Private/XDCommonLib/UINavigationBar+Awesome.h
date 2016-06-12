@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/UIKit/UINavigationBar/UINavigationBar+Awesome.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/UIKit/UINavigationBar/UINavigationBar+Awesome.h

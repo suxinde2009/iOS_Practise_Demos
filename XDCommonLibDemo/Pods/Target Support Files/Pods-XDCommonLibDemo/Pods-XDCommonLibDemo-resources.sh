@@ -58,32 +58,14 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "XDCommonLib/XDCommonLib/Categories/Foundation/XDFileMimeType.plist"
-  install_resource "XDCommonLib/XDCommonLib/Categories/Foundation/NSDate/NSDateTimeAgo.bundle"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_AFAddressBookManager"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_BlocksKit"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_DGBlockThrottle"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_DGStateBroadcaster"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_LunarCore"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_RBCommander"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_RSSwizzle"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_SBTableLayout"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_XDCommonLib"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_YRJSONAdapter"
+  install_resource "XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/XDFileMimeType.plist"
+  install_resource "XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDateTimeAgo.bundle"
+  install_resource "XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "XDCommonLib/XDCommonLib/Categories/Foundation/XDFileMimeType.plist"
-  install_resource "XDCommonLib/XDCommonLib/Categories/Foundation/NSDate/NSDateTimeAgo.bundle"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_AFAddressBookManager"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_BlocksKit"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_DGBlockThrottle"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_DGStateBroadcaster"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_LunarCore"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_RBCommander"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_RSSwizzle"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_SBTableLayout"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_XDCommonLib"
-  install_resource "XDCommonLib/XDCommonLib/Licenses/LICENSE_YRJSONAdapter"
+  install_resource "XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/XDFileMimeType.plist"
+  install_resource "XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/Foundation/NSDate/NSDateTimeAgo.bundle"
+  install_resource "XDCommonLib/XDCommonLib/Venders/SVProgressHUD/SVProgressHUD.bundle"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+ObjectClear.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreData/NSManagedObjectContext/NSManagedObjectContext+ObjectClear.h

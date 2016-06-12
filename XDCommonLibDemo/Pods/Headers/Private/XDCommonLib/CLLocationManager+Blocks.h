@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Categories/CoreLocation/CLLocationManager/CLLocationManager+Blocks.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Categories/CoreLocation/CLLocationManager/CLLocationManager+Blocks.h

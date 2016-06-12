@@ -1,1 +1,1 @@
-../../../XDCommonLib/XDCommonLib/Utils/ImageBeautifyUtil/XDImageBeautifyUtil.h
+../../../XDCommonLib/XDCommonLib/CommonBasicComponentLayer/Utils/ImageBeautifyUtil/XDImageBeautifyUtil.h
