@@ -1,0 +1,47 @@
+PODS:
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - BeeFramework (0.5.2):
+    - BeeFramework/Core (= 0.5.2)
+    - BeeFramework/JSONKit (= 0.5.2)
+  - BeeFramework/Core (0.5.2):
+    - ASIHTTPRequest
+    - BeeFramework/JSONKit
+    - FMDB
+    - OpenUDID
+    - Reachability
+    - TouchXML
+    - ZipArchive
+  - BeeFramework/JSONKit (0.5.2)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - OpenUDID (1.0.0)
+  - Reachability (3.2)
+  - TouchXML (0.1)
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - BeeFramework (~> 0.5.2)
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  BeeFramework: e8fb441f0540b408bf19f96d730e82ebbcf03a82
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  TouchXML: 37089088da5e46f0f4a8797d320fbcfed395ab46
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+COCOAPODS: 0.39.0
