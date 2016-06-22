@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0485A1AB1BB65CB200AE8D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485A1AA1BB65CB200AE8D8F /* main.m */; };
+		0485A1B41BB65FE500AE8D8F /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485A1B31BB65FE500AE8D8F /* Store.m */; settings = {ASSET_TAGS = (); }; };
+		0485A1B61BB6600800AE8D8F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0485A1B51BB6600800AE8D8F /* CoreData.framework */; };
+		0485A1B91BB6603400AE8D8F /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0485A1B71BB6603400AE8D8F /* CoreDataModel.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		0485A1C41BB6613D00AE8D8F /* CoreDataEnity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485A1C11BB6613D00AE8D8F /* CoreDataEnity+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		0485A1C51BB6613D00AE8D8F /* CoreDataEnity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485A1C31BB6613D00AE8D8F /* CoreDataEnity.m */; settings = {ASSET_TAGS = (); }; };
+		0485A1C91BB66CBE00AE8D8F /* FMDBStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485A1C81BB66CBE00AE8D8F /* FMDBStore.m */; settings = {ASSET_TAGS = (); }; };
+		0485A1D31BB6925100AE8D8F /* RealmDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485A1D21BB6925100AE8D8F /* RealmDataModel.m */; settings = {ASSET_TAGS = (); }; };
+		0485A1D61BB6C30500AE8D8F /* RealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485A1D51BB6C30500AE8D8F /* RealmStore.m */; settings = {ASSET_TAGS = (); }; };
+		0BA6CF65DFF5DABC495623AA /* libPods-ContentPersistTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9936B978FCC6A5077F8C0B /* libPods-ContentPersistTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0485A1A51BB65CB200AE8D8F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0485A1A71BB65CB200AE8D8F /* ContentPersistTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ContentPersistTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0485A1AA1BB65CB200AE8D8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0485A1B21BB65FE500AE8D8F /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		0485A1B31BB65FE500AE8D8F /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		0485A1B51BB6600800AE8D8F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0485A1B81BB6603400AE8D8F /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		0485A1C01BB6613D00AE8D8F /* CoreDataEnity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreDataEnity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0485A1C11BB6613D00AE8D8F /* CoreDataEnity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CoreDataEnity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0485A1C21BB6613D00AE8D8F /* CoreDataEnity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataEnity.h; sourceTree = "<group>"; };
+		0485A1C31BB6613D00AE8D8F /* CoreDataEnity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataEnity.m; sourceTree = "<group>"; };
+		0485A1C71BB66CBE00AE8D8F /* FMDBStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBStore.h; sourceTree = "<group>"; };
+		0485A1C81BB66CBE00AE8D8F /* FMDBStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBStore.m; sourceTree = "<group>"; };
+		0485A1D11BB6925100AE8D8F /* RealmDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmDataModel.h; sourceTree = "<group>"; };
+		0485A1D21BB6925100AE8D8F /* RealmDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealmDataModel.m; sourceTree = "<group>"; };
+		0485A1D41BB6C30500AE8D8F /* RealmStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmStore.h; sourceTree = "<group>"; };
+		0485A1D51BB6C30500AE8D8F /* RealmStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealmStore.m; sourceTree = "<group>"; };
+		6B9936B978FCC6A5077F8C0B /* libPods-ContentPersistTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContentPersistTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5ABEA6EE02744267521D51A /* Pods-ContentPersistTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentPersistTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContentPersistTest/Pods-ContentPersistTest.release.xcconfig"; sourceTree = "<group>"; };
+		E158464C61941294838184ED /* Pods-ContentPersistTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentPersistTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContentPersistTest/Pods-ContentPersistTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0485A1A41BB65CB200AE8D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0485A1B61BB6600800AE8D8F /* CoreData.framework in Frameworks */,
+				0BA6CF65DFF5DABC495623AA /* libPods-ContentPersistTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0485A19E1BB65CB200AE8D8F = {
+			isa = PBXGroup;
+			children = (
+				0485A1D01BB6924000AE8D8F /* Realm */,
+				0485A1C61BB66C4600AE8D8F /* FMDB */,
+				0485A1B11BB65FBE00AE8D8F /* Core Data */,
+				0485A1A91BB65CB200AE8D8F /* ContentPersistTest */,
+				0485A1A81BB65CB200AE8D8F /* Products */,
+				68FBF11E4831B8F841B0EED5 /* Pods */,
+				F1046AEB8DA9FE6628024581 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0485A1A81BB65CB200AE8D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0485A1A71BB65CB200AE8D8F /* ContentPersistTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0485A1A91BB65CB200AE8D8F /* ContentPersistTest */ = {
+			isa = PBXGroup;
+			children = (
+				0485A1AA1BB65CB200AE8D8F /* main.m */,
+			);
+			path = ContentPersistTest;
+			sourceTree = "<group>";
+		};
+		0485A1B11BB65FBE00AE8D8F /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				0485A1B21BB65FE500AE8D8F /* Store.h */,
+				0485A1B31BB65FE500AE8D8F /* Store.m */,
+				0485A1C01BB6613D00AE8D8F /* CoreDataEnity+CoreDataProperties.h */,
+				0485A1C11BB6613D00AE8D8F /* CoreDataEnity+CoreDataProperties.m */,
+				0485A1C21BB6613D00AE8D8F /* CoreDataEnity.h */,
+				0485A1C31BB6613D00AE8D8F /* CoreDataEnity.m */,
+				0485A1B71BB6603400AE8D8F /* CoreDataModel.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		0485A1C61BB66C4600AE8D8F /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				0485A1C71BB66CBE00AE8D8F /* FMDBStore.h */,
+				0485A1C81BB66CBE00AE8D8F /* FMDBStore.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		0485A1D01BB6924000AE8D8F /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				0485A1D11BB6925100AE8D8F /* RealmDataModel.h */,
+				0485A1D21BB6925100AE8D8F /* RealmDataModel.m */,
+				0485A1D41BB6C30500AE8D8F /* RealmStore.h */,
+				0485A1D51BB6C30500AE8D8F /* RealmStore.m */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
+		68FBF11E4831B8F841B0EED5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E158464C61941294838184ED /* Pods-ContentPersistTest.debug.xcconfig */,
+				B5ABEA6EE02744267521D51A /* Pods-ContentPersistTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1046AEB8DA9FE6628024581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0485A1B51BB6600800AE8D8F /* CoreData.framework */,
+				6B9936B978FCC6A5077F8C0B /* libPods-ContentPersistTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0485A1A61BB65CB200AE8D8F /* ContentPersistTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0485A1AE1BB65CB200AE8D8F /* Build configuration list for PBXNativeTarget "ContentPersistTest" */;
+			buildPhases = (
+				98621D412CAC59F558E89510 /* Check Pods Manifest.lock */,
+				0485A1A31BB65CB200AE8D8F /* Sources */,
+				0485A1A41BB65CB200AE8D8F /* Frameworks */,
+				0485A1A51BB65CB200AE8D8F /* CopyFiles */,
+				1B4D041014A97B8D9243C954 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContentPersistTest;
+			productName = ContentPersistTest;
+			productReference = 0485A1A71BB65CB200AE8D8F /* ContentPersistTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0485A19F1BB65CB200AE8D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					0485A1A61BB65CB200AE8D8F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 0485A1A21BB65CB200AE8D8F /* Build configuration list for PBXProject "ContentPersistTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0485A19E1BB65CB200AE8D8F;
+			productRefGroup = 0485A1A81BB65CB200AE8D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0485A1A61BB65CB200AE8D8F /* ContentPersistTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B4D041014A97B8D9243C954 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContentPersistTest/Pods-ContentPersistTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98621D412CAC59F558E89510 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0485A1A31BB65CB200AE8D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0485A1D31BB6925100AE8D8F /* RealmDataModel.m in Sources */,
+				0485A1C51BB6613D00AE8D8F /* CoreDataEnity.m in Sources */,
+				0485A1C41BB6613D00AE8D8F /* CoreDataEnity+CoreDataProperties.m in Sources */,
+				0485A1C91BB66CBE00AE8D8F /* FMDBStore.m in Sources */,
+				0485A1AB1BB65CB200AE8D8F /* main.m in Sources */,
+				0485A1D61BB6C30500AE8D8F /* RealmStore.m in Sources */,
+				0485A1B41BB65FE500AE8D8F /* Store.m in Sources */,
+				0485A1B91BB6603400AE8D8F /* CoreDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0485A1AC1BB65CB200AE8D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0485A1AD1BB65CB200AE8D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0485A1AF1BB65CB200AE8D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E158464C61941294838184ED /* Pods-ContentPersistTest.debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0485A1B01BB65CB200AE8D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5ABEA6EE02744267521D51A /* Pods-ContentPersistTest.release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0485A1A21BB65CB200AE8D8F /* Build configuration list for PBXProject "ContentPersistTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0485A1AC1BB65CB200AE8D8F /* Debug */,
+				0485A1AD1BB65CB200AE8D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0485A1AE1BB65CB200AE8D8F /* Build configuration list for PBXNativeTarget "ContentPersistTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0485A1AF1BB65CB200AE8D8F /* Debug */,
+				0485A1B01BB65CB200AE8D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0485A1B71BB6603400AE8D8F /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0485A1B81BB6603400AE8D8F /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 0485A1B81BB6603400AE8D8F /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0485A19F1BB65CB200AE8D8F /* Project object */;
+}

@@ -1,0 +1,17 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Realm (1.0.1):
+    - Realm/Headers (= 1.0.1)
+  - Realm/Headers (1.0.1)
+
+DEPENDENCIES:
+  - FMDB (~> 2.6.2)
+  - Realm (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Realm: 2e15e39d35b08abb529e212ed5d8af107b5236c8
+
+COCOAPODS: 0.39.0
