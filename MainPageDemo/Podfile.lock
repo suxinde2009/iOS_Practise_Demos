@@ -1,0 +1,15 @@
+PODS:
+  - GSKStretchyHeaderView (1.0.0)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - GSKStretchyHeaderView (~> 1.0.0)
+  - Masonry (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  GSKStretchyHeaderView: daba8f035eaade6326d05ee2a382be714bb019c0
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 28e6d5fc1ebd8e565d9ee21f0422685aef711d81
+
+COCOAPODS: 1.1.1
