@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ContentView">
+            <rect key="frame" x="0.0" y="0.0" width="458" height="491"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNx-V5-Ml0">
+                    <rect key="frame" x="0.0" y="80" width="458" height="21"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="csr-dW-OOr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcR-9P-QQx">
+                    <rect key="frame" x="0.0" y="367" width="458" height="30"/>
+                    <color key="backgroundColor" red="0.1764705882" green="0.75294117650000003" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="lls-qT-8dQ"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="UNx-V5-Ml0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5cE-bW-rNS"/>
+                <constraint firstItem="UNx-V5-Ml0" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="I2x-hy-QPS"/>
+                <constraint firstItem="vcR-9P-QQx" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="R1u-r9-AoS"/>
+                <constraint firstAttribute="bottom" secondItem="vcR-9P-QQx" secondAttribute="bottom" constant="94" id="a5W-VK-EcN"/>
+                <constraint firstItem="vcR-9P-QQx" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fqg-a2-1IY"/>
+                <constraint firstItem="UNx-V5-Ml0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="80" id="mjp-Yd-YrB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="75" y="-33.5"/>
+        </view>
+    </objects>
+</document>

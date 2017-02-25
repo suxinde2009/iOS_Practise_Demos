@@ -12,9 +12,10 @@
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate, MTStretchyHeaderViewDelegate>
 
-@property (nonatomic, weak) IBOutlet UIScrollView *scr;
 @property (nonatomic, strong) MTStretchyHeaderView *stretchyView;
 
+
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
 
 @end
 
@@ -23,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    self.automaticallyAdjustsScrollViewInsets = NO;
     self.stretchyView = [[MTStretchyHeaderView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 240.0f)];
     self.stretchyView.shrinkDelegate = self;
     

@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F357DE91E306BFB00537FEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F357DE81E306BFB00537FEF /* main.m */; };
+		1F357DEC1E306BFB00537FEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F357DEB1E306BFB00537FEF /* AppDelegate.m */; };
+		1F357DEF1E306BFB00537FEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F357DEE1E306BFB00537FEF /* ViewController.m */; };
+		1F357DF21E306BFB00537FEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F357DF01E306BFB00537FEF /* Main.storyboard */; };
+		1F357DF41E306BFB00537FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F357DF31E306BFB00537FEF /* Assets.xcassets */; };
+		1F357DF71E306BFB00537FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F357DF51E306BFB00537FEF /* LaunchScreen.storyboard */; };
+		1F357DFF1E306C2900537FEF /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F357DFE1E306C2900537FEF /* ContentView.xib */; };
+		1F357E021E306C3900537FEF /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F357E011E306C3900537FEF /* ContentView.m */; };
+		1F357E051E30895100537FEF /* MTStretchyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F357E041E30895100537FEF /* MTStretchyHeaderView.m */; };
+		B271D1D431B0F6EC01D00E04 /* libPods-ScrollViewContentDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B06ED160F08972E041C92607 /* libPods-ScrollViewContentDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F357DE41E306BFB00537FEF /* ScrollViewContentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewContentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F357DE81E306BFB00537FEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F357DEA1E306BFB00537FEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F357DEB1E306BFB00537FEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F357DED1E306BFB00537FEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F357DEE1E306BFB00537FEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F357DF11E306BFB00537FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F357DF31E306BFB00537FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F357DF61E306BFB00537FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F357DF81E306BFB00537FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F357DFE1E306C2900537FEF /* ContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentView.xib; sourceTree = "<group>"; };
+		1F357E001E306C3900537FEF /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		1F357E011E306C3900537FEF /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+		1F357E031E30895100537FEF /* MTStretchyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStretchyHeaderView.h; sourceTree = "<group>"; };
+		1F357E041E30895100537FEF /* MTStretchyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStretchyHeaderView.m; sourceTree = "<group>"; };
+		20694102E08820B91D5B931A /* Pods-ScrollViewContentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewContentDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollViewContentDemo/Pods-ScrollViewContentDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9C087D6D0C74E12B0858E009 /* Pods-ScrollViewContentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewContentDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollViewContentDemo/Pods-ScrollViewContentDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B06ED160F08972E041C92607 /* libPods-ScrollViewContentDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollViewContentDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F357DE11E306BFB00537FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B271D1D431B0F6EC01D00E04 /* libPods-ScrollViewContentDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F357DDB1E306BFB00537FEF = {
+			isa = PBXGroup;
+			children = (
+				1F357DE61E306BFB00537FEF /* ScrollViewContentDemo */,
+				1F357DE51E306BFB00537FEF /* Products */,
+				E44DE9828C0C45FABD5048EB /* Pods */,
+				A582CE1B91BF4726AB399A41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F357DE51E306BFB00537FEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F357DE41E306BFB00537FEF /* ScrollViewContentDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F357DE61E306BFB00537FEF /* ScrollViewContentDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1F357E031E30895100537FEF /* MTStretchyHeaderView.h */,
+				1F357E041E30895100537FEF /* MTStretchyHeaderView.m */,
+				1F357DEA1E306BFB00537FEF /* AppDelegate.h */,
+				1F357DEB1E306BFB00537FEF /* AppDelegate.m */,
+				1F357DED1E306BFB00537FEF /* ViewController.h */,
+				1F357DEE1E306BFB00537FEF /* ViewController.m */,
+				1F357E001E306C3900537FEF /* ContentView.h */,
+				1F357E011E306C3900537FEF /* ContentView.m */,
+				1F357DFE1E306C2900537FEF /* ContentView.xib */,
+				1F357DF01E306BFB00537FEF /* Main.storyboard */,
+				1F357DF31E306BFB00537FEF /* Assets.xcassets */,
+				1F357DF51E306BFB00537FEF /* LaunchScreen.storyboard */,
+				1F357DF81E306BFB00537FEF /* Info.plist */,
+				1F357DE71E306BFB00537FEF /* Supporting Files */,
+			);
+			path = ScrollViewContentDemo;
+			sourceTree = "<group>";
+		};
+		1F357DE71E306BFB00537FEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F357DE81E306BFB00537FEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A582CE1B91BF4726AB399A41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B06ED160F08972E041C92607 /* libPods-ScrollViewContentDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E44DE9828C0C45FABD5048EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C087D6D0C74E12B0858E009 /* Pods-ScrollViewContentDemo.debug.xcconfig */,
+				20694102E08820B91D5B931A /* Pods-ScrollViewContentDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F357DE31E306BFB00537FEF /* ScrollViewContentDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F357DFB1E306BFB00537FEF /* Build configuration list for PBXNativeTarget "ScrollViewContentDemo" */;
+			buildPhases = (
+				0DB3CBCB2D2294D103489C44 /* [CP] Check Pods Manifest.lock */,
+				1F357DE01E306BFB00537FEF /* Sources */,
+				1F357DE11E306BFB00537FEF /* Frameworks */,
+				1F357DE21E306BFB00537FEF /* Resources */,
+				72657ECAC68435F921F6720F /* [CP] Embed Pods Frameworks */,
+				AE89DA4C961ADF9168A536BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollViewContentDemo;
+			productName = ScrollViewContentDemo;
+			productReference = 1F357DE41E306BFB00537FEF /* ScrollViewContentDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F357DDC1E306BFB00537FEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.su;
+				TargetAttributes = {
+					1F357DE31E306BFB00537FEF = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F357DDF1E306BFB00537FEF /* Build configuration list for PBXProject "ScrollViewContentDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F357DDB1E306BFB00537FEF;
+			productRefGroup = 1F357DE51E306BFB00537FEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F357DE31E306BFB00537FEF /* ScrollViewContentDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F357DE21E306BFB00537FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F357DF71E306BFB00537FEF /* LaunchScreen.storyboard in Resources */,
+				1F357DF41E306BFB00537FEF /* Assets.xcassets in Resources */,
+				1F357DFF1E306C2900537FEF /* ContentView.xib in Resources */,
+				1F357DF21E306BFB00537FEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DB3CBCB2D2294D103489C44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72657ECAC68435F921F6720F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollViewContentDemo/Pods-ScrollViewContentDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE89DA4C961ADF9168A536BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollViewContentDemo/Pods-ScrollViewContentDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F357DE01E306BFB00537FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F357E051E30895100537FEF /* MTStretchyHeaderView.m in Sources */,
+				1F357DEF1E306BFB00537FEF /* ViewController.m in Sources */,
+				1F357DEC1E306BFB00537FEF /* AppDelegate.m in Sources */,
+				1F357E021E306C3900537FEF /* ContentView.m in Sources */,
+				1F357DE91E306BFB00537FEF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F357DF01E306BFB00537FEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F357DF11E306BFB00537FEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F357DF51E306BFB00537FEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F357DF61E306BFB00537FEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F357DF91E306BFB00537FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F357DFA1E306BFB00537FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F357DFC1E306BFB00537FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C087D6D0C74E12B0858E009 /* Pods-ScrollViewContentDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollViewContentDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.ScrollViewContentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F357DFD1E306BFB00537FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20694102E08820B91D5B931A /* Pods-ScrollViewContentDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollViewContentDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.ScrollViewContentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F357DDF1E306BFB00537FEF /* Build configuration list for PBXProject "ScrollViewContentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F357DF91E306BFB00537FEF /* Debug */,
+				1F357DFA1E306BFB00537FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F357DFB1E306BFB00537FEF /* Build configuration list for PBXNativeTarget "ScrollViewContentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F357DFC1E306BFB00537FEF /* Debug */,
+				1F357DFD1E306BFB00537FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F357DDC1E306BFB00537FEF /* Project object */;
+}
